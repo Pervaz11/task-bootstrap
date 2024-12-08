@@ -1,0 +1,61 @@
+body {
+    font-family: 'Metropolis';
+  }
+
+  .container-fluid {
+    background-color: #212529;
+  }
+
+  .icon i {
+    background-color: #277EFD;
+    width: 100px;
+    height: 100px;
+  }
+
+  .navbar {
+    padding: 10px 100px;
+  }
+
+  .container-fluid {
+    height: 100vh 0 0 0;
+  }
+
+
+  header .container-fluid {
+    padding: 60px;
+  }
+
+  button {
+    width: 9rem;
+    height: 3rem;
+  }
+
+  .grow-section {
+    background-color: #F8F9FA;
+  }
+
+  .text-center2 {
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .text-center2 p {
+    font-size: 1rem;
+  }
+
+  .comment {
+    background-color: #ffff;
+    padding: 100px;
+  }
+
+  .register {
+    background-color: #F8F9FA;
+    padding: 100px;
+  }
+
+  footer {
+    padding: 3rem;
+  }
