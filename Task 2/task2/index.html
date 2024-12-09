@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./src/assets/style.css">
+    <title>Responsive Navbar with Button</title>
+</head>
+
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Responsive Page</title>
+        <!-- Подключение Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="footer-style.css"> <!-- Ваш файл CSS -->
+    </head>
+
+    <body>
+
+        <!-- Навигация -->
+        <nav id="navbar" class="navbar navbar-expand-lg bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand text-light" href="#">Navbar scroll</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                    aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                        <li class="nav-item">
+                            <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Link
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled text-light" aria-disabled="true">Link</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        
+        <!-- Header Carusel -->
+        <header>
+            <div class="carousel-container">
+                <div id="headerCarousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <!-- First slide -->
+                        <div class="carousel-item active">
+                            <img src="https://images.pexels.com/photos/2156/sky-earth-space-working.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                                class="d-block w-100" alt="...">
+                        </div>
+                        <!-- Second slide -->
+                        <div class="carousel-item">
+                            <img src="https://images.pexels.com/photos/586063/pexels-photo-586063.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                                class="d-block w-100" alt="...">
+                        </div>
+                        <!-- Third slide -->
+                        <div class="carousel-item">
+                            <img src="https://images.pexels.com/photos/5439/earth-space.jpg" class="d-block w-100"
+                                alt="cosmos">
+                        </div>
+                    </div>
+                    <!-- ARROWS -->
+                    <div id="arrow">
+                        <button class="carousel-control-prev" type="button" data-bs-target="#headerCarousel"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#headerCarousel"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Cards Section -->
+        <section class="cards-section">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card">
+                        <img src="https://www.gctc.ru/media/images/news/2012/kosmonavti/usacev/usacev.u.v..jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Hemze Qasimzade</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="https://kosmos-memorial.ru/wp-content/uploads/2020/10/SfzMiLYXuEM-683x1024.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Resul Isgandarli</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="https://www.gctc.ru/media/images/news/2015/kosmonavti/kornienko/IMG_9412resize.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Davud Gikorasvilli</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Buttons Section -->
+        <section id="heading" class="content-section bg-primary">
+            <div class="container px-4 px-lg-5 text-center">
+                <h2 class="mb-4 text-light">The buttons below are impossible to resist...</h2>
+                <a class="btn btn-xl btn-light me-4" href="#!">Click Me!</a>
+                <a class="btn btn-xl btn-dark" href="#!">Look at Me!</a>
+            </div>
+        </section>
+
+        <!-- Map Section -->
+        <div class="map-container">
+            <div class="map-text">
+                This is my location
+            </div>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3037.410452303189!2d49.997366076047555!3d40.42190937143875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x403063cbd873cf71%3A0xc55bfe6f059c14c6!2zU3VyYXhhbsSxIEJhemFyxLE!5e0!3m2!1sen!2str!4v1733700930936!5m2!1sen!2str"
+                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            <!-- Раздел с изображениями -->
+            <div class="footer-images d-flex justify-content-center gap-2">
+                <img src="https://mdbcdn.b-cdn.net/img/new/fluid/city/113.webp" alt="Image 1" class="img-fluid">
+                <img src="https://mdbcdn.b-cdn.net/img/new/fluid/city/111.webp" alt="Image 2" class="img-fluid">
+                <img src="https://mdbcdn.b-cdn.net/img/new/fluid/city/112.webp" alt="Image 3" class="img-fluid">
+            </div>
+
+            <!-- Copyright -->
+            <div class="copyright text-center mt-4">
+                © 2020 Copyright:
+                <a href="https://github.com/" target="_blank">https://github.com/</a>
+            </div>
+        </footer>
+
+
+        <!-- Подключение Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+
+    </html>
+
+</body>
+
+
+</html>
+
+<!-- JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+
+</html>

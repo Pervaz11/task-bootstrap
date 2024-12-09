@@ -1,0 +1,45 @@
+#navbar {
+    background-color: #212529;
+    width: 100%;
+    padding: 1.8rem 3rem;
+}
+
+#navbarScroll {
+    color: white;
+    
+}
+
+
+/* Header */
+.carousel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#headerCarousel {
+    width: 80%;
+    max-width: 900px;
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: #f0f0f0;
+}
+
+.carousel-inner img {
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+}
+
+
+

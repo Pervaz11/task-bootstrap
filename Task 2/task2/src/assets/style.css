@@ -1,0 +1,42 @@
+@import url(./header.css);
+@import url(./base.css);
+@import url(./footer.css);
+
+.cards-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 5rem;
+    background-color: #F8F9FA
+}
+
+#heading {
+    padding: 5rem;
+}
+
+#heading .btn {
+    padding: 1rem 3rem;
+}
+
+.map-container {
+    background-color: #F8F9FA;
+    border-radius: 15px;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.map-container iframe {
+    border-radius: 10px;
+}
+
+.map-text {
+    margin-bottom: 15px;
+    padding: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
